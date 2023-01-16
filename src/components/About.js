@@ -34,7 +34,7 @@ function About() {
             </p>
           </div>
           <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-5/6 flex items-center justify-center mb-10">
-            <img src={Mask} alt={`Baz taking a `} className="h-60" />
+            <img src={Mask} alt={`Baz taking a `} className="h-60 " />
           </div>
         </div>
         {/* About me */}
@@ -43,22 +43,23 @@ function About() {
             About Me
           </h1>
           <p className="text-gray-600 font-normal mb-6 text-lg  text-left  mx-auto py-5 dark:text-white">
-            A result-driven frontend developer with 2+ years of experience
-            building user-friendly and responsive websites and applications.
+            A result-driven Frontend developer with 3+ years of experience
+            building user-friendly and responsive websites.
             Proficient in HTML, CSS, JavaScript, and frameworks such as
             Tailwindcss, Bootstrap and React. Skilled in creating visually
             appealing and intuitive interfaces using design principles and best
-            practices. Able to work well in a team environment and communicate
+            practices. Able to work well in a team environment and independently, communicate
             effectively with non-technical stakeholders.
+            Outside of work I'm interested in open source contribution.
+            My hobbies include playing basketball and videogames.
           </p>
 
           <motion.button
-            className="px-6 py-3  md:px-10 bg-gray-700 font-medium text-white text-md rounded-md hover:text-gray-700 hover:bg-white transition ease-linear duration-500 mb-5"
+            className="px-6 py-3  md:px-10 bg-orange-500 font-medium text-white text-md rounded-md hover:text-gray-700 shadow-lg shadow-orange-500/50 hover:bg-white transition ease-linear duration-500 mb-5"
             download={{ Resume }}
             whileHover={{
               scale: 1.1,
-              textShadow: "0px 0px 8px rgb(205, 255, 255 )",
-              boxShadow: "0px 0px 8px rgb(255, 255, 255 )",
+              
             }}
             transition={{
               duration: 1.2,

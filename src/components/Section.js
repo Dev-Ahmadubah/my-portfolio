@@ -15,6 +15,7 @@ import Code from "./images/code.png";
 import Page from "./images/landing.png";
 import Bankapp from "./images/bankapp.png";
 import Github from "./images/Github.png";
+import Speech from "./images/ss.png";
 import "animate.css";
 
 function Section() {
@@ -55,13 +56,12 @@ function Section() {
     {
       imageUrl: Figma,
     },
-   
   ];
   return (
     <>
       <main className="container mx-auto mt-20  px-5 bg-white dark:bg-gray-900">
         <h2 className="  mt-[6rem] font-bold text-gray-700 mb-10 text-3xl dark:text-white">
-         Skills
+          Skills
         </h2>
         <div className="flex flex-row justify-between items-start gap-6 flex-wrap ">
           {List.map((list) => (
@@ -80,7 +80,7 @@ function Section() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {/* row start */}
-            <div className="p-4 md:w-1/2">
+            <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-400 dark:border-gray-800 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
@@ -103,10 +103,10 @@ function Section() {
                       Tailwindcss
                     </p>
                     <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
-                      <img src={Upload} alt=" Live logo" />
+                      <a href="https://dev-ahmadubah.github.io/Landingpage/"><img src={Upload} alt=" Live logo" /></a>
                     </span>
                     <span className="text-gray-500 inline-flex items-center leading-none text-sm">
-                      <img src={Code} alt=" Live logo" />
+                      <a href="https://github.com/Dev-Ahmadubah/Landingpage"><img src={Code} alt=" Live logo" /></a>
                     </span>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ function Section() {
             </div>
 
             {/* Row 2 */}
-            <div className="p-4 md:w-1/2">
+            <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-400 dark:border-gray-800 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-48 w-full object-cover object-center"
@@ -137,16 +137,56 @@ function Section() {
                       Tailwindcss
                     </p>
                     <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
-                      <img src={Upload} alt=" Live logo" />
+                      <a href="https://bankapplandingpage.netlify.app/">
+                        <img src={Upload} alt=" Live logo" />
+                      </a>
                     </span>
                     <span className="text-gray-500 inline-flex items-center leading-none text-sm">
-                      <img src={Code} alt=" Live logo" />
+                      <a href="https://github.com/Dev-Ahmadubah/Bank-landingpage">
+                        <img src={Code} alt=" code logo" />
+                      </a>
                     </span>
                   </div>
                 </div>
               </div>
             </div>
             {/* row 3 */}
+            <div className="p-4 md:w-1/3">
+              <div className="h-full border-2 border-gray-400 dark:border-gray-800 rounded-lg overflow-hidden">
+                <img
+                  className="lg:h-48 md:h-48 w-full object-cover object-center"
+                  src={Speech}
+                  alt="blog"
+                />
+                <div className="p-6">
+                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                    Text to Speech
+                  </h1>
+                  <p className="leading-relaxed mb-3">
+                    Text to speech is an website build to help people to
+                    pronounce a complex word.
+                  </p>
+                  <div className="flex items-center flex-wrap ">
+                    <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
+                      Css
+                    </p>
+                    <p className="rounded-lg text-sm px-2 border-2 border-gray-200">
+                      JavaScript
+                    </p>
+                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                      <a href="https://dev-ahmadubah.github.io/speech-synthesis-/">
+                        <img src={Upload} alt=" Live logo" />
+                      </a>
+                    </span>
+                    <span className="text-gray-500 inline-flex items-center leading-none text-sm">
+                      <a href="https://github.com/Dev-Ahmadubah/speech-synthesis-">
+                        <img src={Code} alt=" Live logo" />
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
