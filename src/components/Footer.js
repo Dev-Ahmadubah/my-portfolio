@@ -2,7 +2,7 @@
 import React from "react";
 import Github from "./images/Github.png";
 import Twitter from "./images/Twitter.png";
-import Mail from "./images/mail.png";
+import Hasnode from "./images/hasnode.png";
 import Linkedn from "./images/Linkedn.png";
 
 const List = [
@@ -15,8 +15,8 @@ const List = [
     url: "https://twitter.com/ahmadubahh/",
   },
   {
-    imageUrl: Mail,
-    url: "mailto:ahmadsta7@gmail.com",
+    imageUrl: Hasnode,
+    url: "https://ahmadubah.hashnode.dev/",
   },
   {
     imageUrl: Linkedn,

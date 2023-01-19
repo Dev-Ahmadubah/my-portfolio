@@ -16,7 +16,6 @@ import Page from "./images/landing.png";
 import Bankapp from "./images/bankapp.png";
 import Github from "./images/Github.png";
 import Speech from "./images/ss.png";
-import "animate.css";
 
 function Section() {
   const List = [
@@ -89,10 +88,10 @@ function Section() {
                 />
                 <div className="p-6">
                   <h1 className="title-font text-lg font-medium text-white mb-3">
-                    Organization LandingPage
+                    LandingPage
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Pesponsive organization landingpage that is design optimal
+                    Responsive organization landingpage that is design optimal
                     display on various devices
                   </p>
                   <div className="flex items-center flex-wrap ">
@@ -102,11 +101,15 @@ function Section() {
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200">
                       Tailwindcss
                     </p>
-                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
-                      <a href="https://dev-ahmadubah.github.io/Landingpage/"><img src={Upload} alt=" Live logo" /></a>
+                    <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-400 dark:text-gray-200 ">
+                      <a href="https://dev-ahmadubah.github.io/Landingpage/">
+                        <img src={Upload} alt=" Live logo" />
+                      </a>
                     </span>
-                    <span className="text-gray-500 inline-flex items-center leading-none text-sm">
-                      <a href="https://github.com/Dev-Ahmadubah/Landingpage"><img src={Code} alt=" Live logo" /></a>
+                    <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <a href="https://github.com/Dev-Ahmadubah/Landingpage">
+                        <img src={Code} alt=" Live logo" />
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -126,8 +129,7 @@ function Section() {
                     BankApp Landing Page
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Pesponsive organization landingpage that is design optimal
-                    display on various devices
+                    Responsive organization landingpage that is with modern UI
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
@@ -136,7 +138,7 @@ function Section() {
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200">
                       Tailwindcss
                     </p>
-                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2  border-gray-400 dark:text-gray-200">
                       <a href="https://bankapplandingpage.netlify.app/">
                         <img src={Upload} alt=" Live logo" />
                       </a>
@@ -163,7 +165,7 @@ function Section() {
                     Text to Speech
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Text to speech is an website build to help people to
+                    Text to speech is a website build to help people to
                     pronounce a complex word.
                   </p>
                   <div className="flex items-center flex-wrap ">
@@ -173,7 +175,7 @@ function Section() {
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200">
                       JavaScript
                     </p>
-                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                    <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2  border-gray-400 dark:text-gray-200">
                       <a href="https://dev-ahmadubah.github.io/speech-synthesis-/">
                         <img src={Upload} alt=" Live logo" />
                       </a>
@@ -201,7 +203,7 @@ function Section() {
             <div className="lg:w-3/5 md:w-2/2 md:pr-10 md:py-6">
               <div className="flex relative pb-12">
                 <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-gray-400 dark:bg-gray-700 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-orange-400 inline-flex items-center justify-center text-white relative z-10">
                   1
@@ -235,7 +237,7 @@ function Section() {
               {/* second */}
               <div className="flex relative pb-12 ">
                 <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-gray-400 dark:bg-gray-700 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-orange-400  inline-flex items-center justify-center text-white relative z-10">
                   2
