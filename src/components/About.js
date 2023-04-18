@@ -1,6 +1,6 @@
 import React from "react";
 // import Mask from "./images/mask.png";
-import Ahmad from "./images/ahmad.png";
+import Me from "./images/me1.png";
 import { motion } from "framer-motion";
 
 
@@ -35,7 +35,7 @@ function About() {
             </p>
           </div>
           <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-5/6 flex items-center justify-center mb-10">
-            <img src={Ahmad} alt={`Baz taking a `} className="h-80 " />
+            <img src={Me} alt={`Baz taking a `} className="h-80 " />
           </div>
         </div>
         {/* About me */}
