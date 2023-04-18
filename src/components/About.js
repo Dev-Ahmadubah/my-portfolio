@@ -34,7 +34,7 @@ function About() {
               of websites and applications{" "}
             </p>
           </div>
-          <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-5/6 flex items-center justify-center mb-10">
+          <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-full flex items-center justify-center mb-10">
             <img src={Me} alt={`Baz taking a `} className="h-80 " />
           </div>
         </div>
