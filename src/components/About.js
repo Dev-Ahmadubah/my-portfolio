@@ -35,7 +35,7 @@ function About() {
             </p>
           </div>
           <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-5/6 flex items-center justify-center mb-10">
-            <img src={Mypic} alt={`Baz taking a `} className="h-100 " />
+            <img src={Mypic} alt={`Baz taking a `} className="h-80 " />
           </div>
         </div>
         {/* About me */}
@@ -51,8 +51,8 @@ function About() {
             interfaces using design principles and best practices. Able to work
             well in a team environment and independently, communicate
             effectively with non-technical stakeholders. Outside of work I'm
-            interested in open source contribution. My hobbies include playing
-            basketball and videogames.
+            interested in open source contribution. I play
+            basketball.
           </p>
 
           <motion.button
@@ -66,7 +66,7 @@ function About() {
               yoyo: Infinity,
             }}
           >
-            <a href="./images/Resumeaua1.pdf" download="Resumeaua1.pdf">
+            <a href="https://drive.google.com/file/d/1bYDhPw--I2Z7rWIB0V3h2vIK0_b8Z5YF/view?usp=sharing" >
               {" "}
               Get my resume
             </a>

@@ -165,8 +165,7 @@ function Section() {
                     Text to Speech
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Text to speech is a website build to help people to
-                    pronounce a complex word.
+                    Text to speech is a website that convert written text into audio.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
@@ -272,7 +271,7 @@ function Section() {
                   3
                 </div>
                 <div className="flex-grow pl-4 text-md text-gray-600 dark:text-white">
-                  <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">
+                <h2 className="font-medium title-font text-lg mb-1 tracking-wider">
                     Freelance
                   </h2>
                   <p className="leading-relaxed mt-4 dark:text-gray-400">
