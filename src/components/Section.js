@@ -88,26 +88,30 @@ function Section() {
                 />
                 <div className="p-6">
                   <h1 className="title-font text-lg font-medium text-white mb-3">
-                    LandingPage
+                    Meme Generator
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Responsive organization landingpage that is design optimal
-                    display on various devices
+                    Meme Generator is a web application built with React that
+                    allows users to create custom memes using an external API.
+                    With this application, users can choose from a selection of
+                    popular meme templates, add their own text to the templates,
+                    and generate a meme that they can save or share on social
+                    media.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
-                      HTML
+                      React
                     </p>
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200">
-                      Tailwindcss
+                      Api
                     </p>
                     <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-400 dark:text-gray-200 ">
-                      <a href="https://dev-ahmadubah.github.io/Landingpage/">
+                      <a href="https://create-your-meme.netlify.app/">
                         <img src={Upload} alt=" Live logo" />
                       </a>
                     </span>
                     <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                      <a href="https://github.com/Dev-Ahmadubah/Landingpage">
+                      <a href="https://github.com/Dev-Ahmadubah/Meme-generator">
                         <img src={Code} alt=" Live logo" />
                       </a>
                     </span>
@@ -165,7 +169,8 @@ function Section() {
                     Text to Speech
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    Text to speech is a website that convert written text into audio.
+                    Text to speech is a website that convert written text into
+                    audio.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
@@ -271,7 +276,7 @@ function Section() {
                   3
                 </div>
                 <div className="flex-grow pl-4 text-md text-gray-600 dark:text-white">
-                <h2 className="font-medium title-font text-lg mb-1 tracking-wider">
+                  <h2 className="font-medium title-font text-lg mb-1 tracking-wider">
                     Freelance
                   </h2>
                   <p className="leading-relaxed mt-4 dark:text-gray-400">
