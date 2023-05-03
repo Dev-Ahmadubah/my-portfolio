@@ -52,7 +52,7 @@ function About() {
             interfaces using design principles and best practices. Able to work
             well in a team environment and independently, communicate
             effectively with non-technical stakeholders. Outside of work I'm
-            interested in open source contribution. I play
+            interested in open source contribution and
             basketball.
           </p>
 
