@@ -26,7 +26,7 @@ function About() {
                 stiffness: 40,
               }}
             >
-              I'm a Front-end developer
+              Front-end Developer + Open Source Contributor
             </motion.h1>
             <p className="text-gray-700 dark:text-white">
               Experienced Frontend Developer with a passion for cloud
