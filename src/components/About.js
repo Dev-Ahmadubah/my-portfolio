@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 // import Mask from "./images/mask.png";
-import Me from "./images/me1.png";
+import Me from "./images/profil.jpg";
 import { motion } from "framer-motion";
-
 
 function About() {
   return (
@@ -36,7 +35,7 @@ function About() {
             </p>
           </div>
           <div className="lg:max-w-lg mt-6 lg:w-full md:w-1/2 w-full flex items-center justify-center mb-10">
-            <img src={Me} alt='my picture' className=" " />
+            <img src={Me} alt="my picture" className="rounded-full h-72 " />
           </div>
         </div>
         {/* About me */}
@@ -52,13 +51,11 @@ function About() {
             interfaces using design principles and best practices. Able to work
             well in a team environment and independently, communicate
             effectively with non-technical stakeholders. Outside of work I'm
-            interested in open source contribution and
-            basketball.
+            interested in open source contribution and basketball.
           </p>
 
           <motion.button
             className="px-6 py-3  md:px-10 bg-orange-500 font-medium text-white text-md rounded-md hover:text-gray-700 shadow-lg shadow-orange-500/50 hover:bg-white transition ease-linear duration-500 mb-5"
-          
             whileHover={{
               scale: 1.1,
             }}
@@ -67,7 +64,7 @@ function About() {
               yoyo: Infinity,
             }}
           >
-            <a href="https://drive.google.com/file/d/1bYDhPw--I2Z7rWIB0V3h2vIK0_b8Z5YF/view?usp=sharing" >
+            <a href="https://drive.google.com/file/d/1bYDhPw--I2Z7rWIB0V3h2vIK0_b8Z5YF/view?usp=sharing">
               {" "}
               Get my resume
             </a>
