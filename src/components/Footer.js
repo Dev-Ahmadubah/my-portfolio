@@ -27,7 +27,7 @@ const List = [
 function Footer() {
   return (
     <>
-      <footer className="container mx-auto mt-10 py-10 bg-white dark:bg-gray-900">
+      <footer className="container mx-auto mt-10 py-10 bg-white dark:bg-darkGray">
         <div className="flex-row sm:flex justify-between mt-10 mr-10 ml-10 flex-wrap  ">
           <div>
             <h1 className="font-semibold text-4xl tracking-tight text-gray-700 hover:text-gray-500 cursor-pointer dark:text-white font-mono">
