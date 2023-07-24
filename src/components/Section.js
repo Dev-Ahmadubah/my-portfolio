@@ -58,7 +58,7 @@ function Section() {
   ];
   return (
     <>
-      <main className="container mx-auto mt-20  px-5 ">
+      <main className="container mx-auto mt-20  px-5 bg-white dark:bg-darkGray">
         <h2 className="  mt-[6rem] font-bold text-gray-700 mb-10 text-3xl dark:text-white">
           Skills
         </h2>
