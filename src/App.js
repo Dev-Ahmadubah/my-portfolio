@@ -13,7 +13,7 @@ function App() {
   return (
     <React.StrictMode>
       <ThemeProvider>
-        <body className="bg-white dark:bg-gray transition-all box-border">
+        <body className="bg-white dark:bg-darkGray transition-all box-border">
           <main>
             <div className="">
               <Navhead />
