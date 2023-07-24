@@ -41,7 +41,7 @@ function Footer() {
         <br />
       </footer>
       <hr />
-      <div className="container mx-auto px-5 sticky bottom-0 bg-white bg-opacity-20 backdrop-blur-lg dark:bg-gray-900 dark:bg-opacity-20 dark:backdrop-blur-lg z-20">
+      <div className="container mx-auto px-5 sticky bottom-0 bg-white bg-opacity-20 backdrop-blur-lg dark:bg-darkGray dark:bg-opacity-20 dark:backdrop-blur-lg z-20">
         <hr className="dark:bg-white bg-black bg-blend-darken" />
 
         <div className="pt-5 pb-2 flex flex-row item-center justify-between ">
