@@ -58,7 +58,7 @@ function Section() {
   ];
   return (
     <>
-      <main className="container mx-auto mt-20  px-5 bg-white dark:bg-gray-900">
+      <main className="container mx-auto mt-20  px-5 ">
         <h2 className="  mt-[6rem] font-bold text-gray-700 mb-10 text-3xl dark:text-white">
           Skills
         </h2>
@@ -93,7 +93,6 @@ function Section() {
                   <p className="leading-relaxed mb-3">
                     Meme Generator is a web application built with React that
                     allows users to create custom memes using an external API.
-                    
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <p className="rounded-lg text-sm px-2 border-2 border-gray-200 mr-2">
