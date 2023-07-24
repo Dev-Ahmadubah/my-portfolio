@@ -1,10 +1,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: 'class', //
+  darkMode: "class", //
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: "#191919",
+      },
+    },
   },
-  plugins: [
-    require("@tailwindcss/typography")
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };

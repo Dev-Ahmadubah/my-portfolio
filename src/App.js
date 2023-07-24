@@ -7,16 +7,16 @@ import Section from "./components/Section";
 // import { Router, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navhead from "./components/Navhead";
-import { ThemeProvider } from './components/themeContext';
+import { ThemeProvider } from "./components/themeContext";
 
 function App() {
   return (
     <React.StrictMode>
       <ThemeProvider>
-        <body className="bg-white dark:bg-gray-900 transition-all box-border">
+        <body className="bg-white dark:bg-gray transition-all box-border">
           <main>
             <div className="">
-              <Navhead/>
+              <Navhead />
             </div>
             {/* <Header /> */}
             <About />
